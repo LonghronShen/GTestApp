@@ -1,23 +1,19 @@
-//
-// Created by 张飞 on 2020/8/29.
-//
-
-#ifndef MYPROJECT_STUDENT_H
-#define MYPROJECT_STUDENT_H
+#ifndef D0E2B3E3_8145_4E86_BA75_7081163BD160
+#define D0E2B3E3_8145_4E86_BA75_7081163BD160
 
 #include <string>
 
 class Student {
 public:
-    Student(const std::string &name, int age);
+  Student(const std::string &name, int age);
 
-    int getAge();
+  int getAge();
 
-    std::string getName();
+  std::string getName();
 
 private:
-    int mAge;
-    std::string mName;
+  int _age;
+  std::string _name;
 };
 
-#endif //MYPROJECT_STUDENT_H
+#endif /* D0E2B3E3_8145_4E86_BA75_7081163BD160 */
